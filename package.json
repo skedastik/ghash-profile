@@ -1,0 +1,29 @@
+{
+  "name": "ghash-profile",
+  "version": "0.0.0",
+  "description": "An extensive profile of ghash",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "ghash": "^0.1.0",
+    "hamming-distance": "^1.0.0",
+    "sprintf-js": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skedastik/ghash-profile.git"
+  },
+  "keywords": [
+    "ghash"
+  ],
+  "author": "Alaric Holloway <alaric.holloway@gmail.com> (https://github.com/skedastik)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skedastik/ghash-profile/issues"
+  },
+  "homepage": "https://github.com/skedastik/ghash-profile"
+}
