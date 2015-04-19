@@ -95,12 +95,13 @@ function compareOriginals(hashSets) {
                 if (distance == 0) collisionCounts[idx]++;
             });
         }
+        var totalComparisons = files.length - 1;
         console.log(sprintf('        --------------------------------------------------------------'));
-        console.log(sprintf('        %-40s %-7d %-7d %-7d',
-            'Total collisions:',
-            collisionCounts[0],
-            collisionCounts[1],
-            collisionCounts[2]
+        console.log(sprintf('        %-40s %-7.2f %-7.2f %-7.2f',
+            'Percentage of collisions:',
+            collisionCounts[0] / totalComparisons * 100,
+            collisionCounts[1] / totalComparisons * 100,
+            collisionCounts[2] / totalComparisons * 100
         ));
         console.log('');
     }
